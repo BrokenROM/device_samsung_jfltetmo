@@ -1,2 +1,3 @@
-add_lunch_combo cm_jfltetmo-eng
-
+add_lunch_combo candy5_jfltetmo-eng
+add_lunch_combo candy5_jfltetmo-userdebug
+add_lunch_combo candy5_jfltetmo-user
