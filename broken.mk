@@ -1,10 +1,10 @@
 $(call inherit-product, device/samsung/jfltetmo/full_jfltetmo.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/candy5/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/broken/config/nfc_enhanced.mk)
 
-# Inherit some common Candy5 stuff.
-$(call inherit-product, vendor/candy5/config/common_full_phone.mk)
+# Inherit some common Broken stuff.
+$(call inherit-product, vendor/broken/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
   PRODUCT_NAME=jfltetmo \
@@ -12,6 +12,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
   BUILD_FINGERPRINT="samsung/jfltetmo/jfltetmo:4.4.4/KTU84P/M919UVUFNK2:user/release-keys" \
   PRIVATE_BUILD_DESC="jfltetmo-user 4.4.4 KTU84P M919UVUFNK2 release-keys"
 
-PRODUCT_NAME := candy5_jfltetmo
+PRODUCT_NAME := broken_jfltetmo
 PRODUCT_DEVICE := jfltetmo
 
